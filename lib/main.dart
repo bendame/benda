@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import './chat.dart';
+import 'Help/chat.dart';
 import './home.dart';
-import './promo.dart';
+import 'Promotion/promo.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(MyApp());
@@ -9,6 +10,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -36,7 +38,11 @@ class MyAppBarWidget extends StatelessWidget {
                 children: [
                   Icon(Icons.stream_rounded),
                   Center(
-                    child: Text("Promo"),
+                    child: Text(
+                      "Promo",
+                      style: GoogleFonts.lato(
+                          fontWeight: FontWeight.bold, fontSize: 15),
+                    ),
                   ),
                 ],
               ),
@@ -45,7 +51,11 @@ class MyAppBarWidget extends StatelessWidget {
                 children: [
                   Icon(Icons.home),
                   Center(
-                    child: Text("Home"),
+                    child: Text(
+                      "Home",
+                      style: GoogleFonts.lato(
+                          fontWeight: FontWeight.bold, fontSize: 15),
+                    ),
                   ),
                 ],
               ),
@@ -54,7 +64,11 @@ class MyAppBarWidget extends StatelessWidget {
                 children: [
                   Icon(Icons.mail),
                   Center(
-                    child: Text("Help"),
+                    child: Text(
+                      "Help",
+                      style: GoogleFonts.lato(
+                          fontWeight: FontWeight.bold, fontSize: 15),
+                    ),
                   ),
                 ],
               ),
@@ -72,4 +86,3 @@ class MyAppBarWidget extends StatelessWidget {
     );
   }
 }
-
