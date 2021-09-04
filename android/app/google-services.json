@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "100073849068",
+    "project_id": "benda-me",
+    "storage_bucket": "benda-me.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100073849068:android:55819ee3538d3fc130a5c9",
+        "android_client_info": {
+          "package_name": "com.example.benda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100073849068-0q9tfce6h7m1i4eihldnggasj9i7ej2d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.benda",
+            "certificate_hash": "beacc37fb0b1c575cd835e04ac8d0f7a283501bc"
+          }
+        },
+        {
+          "client_id": "100073849068-6uoe9ns7012np2jhh9elijaovh5adpb2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz4uVN4Q9iEown1IOBoziMXmSXBHyPTXc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100073849068-6uoe9ns7012np2jhh9elijaovh5adpb2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

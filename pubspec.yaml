@@ -23,6 +23,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  #Firebase Core Flutter SDK
+  firebase_core: "^0.7.0"
+  firebase_auth: "^0.20.1"
+
+  provider: ^4.3.2+1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -32,6 +37,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -43,6 +49,11 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/images/benda1.png
+    - assets/images/benda2.png
+    - assets/images/benda3.png
 
   # To add assets to your application, add an assets section, like this:
   # assets:
